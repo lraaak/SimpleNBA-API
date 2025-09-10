@@ -7,7 +7,7 @@ games_url = "https://api.balldontlie.io/v1/games"
 
 
 # Your API key from Balldontlie (replace with your actual key)
-api_key = "f7d34d90-b6b6-46fa-a05e-509e7859b399"
+api_key = "YOUR API KEY"
 headers = {'Authorization': api_key}
 nba_abv = ('ATL', 'BOS', 'BRK', 'CHI', 'CHO', 'CLE', 'DAL', 'DEN', 'DET', 'GSW',
            'HOU', 'IND', 'LAC', 'LAL', 'MEM', 'MIA', 'MIL', 'MIN', 'NOP', 'NYK', 
