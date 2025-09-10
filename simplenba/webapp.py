@@ -11,7 +11,9 @@ from .api import NBAAPI, NBAAPIError
 
 def create_app():
     """Create and configure the Flask application"""
-    app = Flask(__name__)
+    import os
+    template_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'templates')
+    app = Flask(__name__, template_folder=template_dir)
     app.secret_key = 'simplenba-api-secret-key'
     
     # Initialize NBA API
